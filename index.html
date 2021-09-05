@@ -15,6 +15,13 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        
+        .results {
+            background-color: lightgray;
+            opacity: 0.7;
+            z-index: -4;
+            width: 50%;
+        }
     </style>
 </head>
 
@@ -27,11 +34,12 @@
 					Search
 				</button>
         </div>
-        <section class="">
-            <img src="" alt="" />
-            <h2 id="city-name">Dhaka</h2>
-            <h4 id="temparature">34C</h4>
-            <h6 id="condiition">Clouds</h6>
+        <section id="results" class="mx-auto py-3">
+            <img id="weather-icon" src="" alt="" />
+            <h2 id="city-name"></h2>
+            <h4 id="temparature"></h4>
+            <h4 id="feels-like"></h4>
+            <h6 id="condition"></h6>
         </section>
     </header>
 
